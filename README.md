@@ -11,8 +11,8 @@ import sys
 import os.path
 
 #Declare model
-model = pyo.ConcreteModel()
-#Declare parameters Guess value
+model = pyo.ConcreteModel() 
+#Declare parameters Guess value 
 model.l = pyo.Param(initialize=250)
 model.mina1=pyo.Param(initialize=0)
 model.mina2=pyo.Param(initialize=0)
